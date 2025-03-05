@@ -1,0 +1,150 @@
+:root{
+    --pbtn:linear-gradient(to bottom, rgba(13, 36, 63, 0.3), rgba(13, 36, 63, 1.0));
+    --btn:#A948B9;
+    --f:#5E2866;
+    --b:#000;
+    --p:#f7d5ed;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: volksans,sans-serif;
+}
+
+body{
+    background-color: var(--p);
+}
+#navbar{
+/*    background-color: var(--btn);*/
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    text-align: center;
+    padding: 15px;
+}
+
+h1{
+    font-weight: 800px;
+    color: gray;
+}
+
+span{
+    color: burlywood;
+}
+
+.btns{
+    padding: 12px;
+}
+
+#back{
+    text-decoration: none;
+    color: gray;
+}
+
+#sign{
+    background-color: lightpink;
+    color: gray;
+    font-weight: 400;
+    border: none;
+    border-radius: 20%;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.all{
+/*    background-color: var(--b);*/
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 60px;
+}
+
+.side{
+/*    background-color: var(--f);*/
+    height: 100vh;
+    padding: 0px 0px 40px 40px;
+    width: 355px;
+}
+
+.side img{
+    height: 330px;
+    width: 330px;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+h4{
+    color: var(--f);
+}
+.main{
+/*    background-color: var(--p);*/
+    height: 100vh;
+    padding: 0px 40px 40px 40px;
+    flex: 1;
+}
+
+.main h1{
+    color: var(--f);
+    font-size: 3.2rem;
+}
+
+.date{
+    display: flex;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 20px 0px;
+}
+
+.date .fa-calendar{
+    padding: 10px 13px;
+    border: 0.5px solid var(--f);
+    margin-right: 20px;
+    border-radius: 30%;
+    color: var(--f);
+}
+
+.date .fa-location-dot{
+    padding: 10px 13px;
+    border: 0.5px solid var(--f);
+    margin-right: 20px;
+    border-radius: 30%;
+    color: var(--f);
+}
+.join{
+    width: 35rem;
+    height: 15rem;
+    border: 0.5px solid whitesmoke;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.join h4{
+    margin: 10px 10px 10px 20px;
+}
+
+.join #para{
+    margin: 20px;
+}
+
+.join #btn{
+    color: whitesmoke;
+    background-color: var(--btn);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 2.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+}
+::-webkit-scrollbar{
+    width:0px;
+}
